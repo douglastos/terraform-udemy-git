@@ -1,0 +1,11 @@
+#verificar versao
+az version
+
+#login
+az login
+
+#create resource group
+az group create --location eastus --resource-group vscodeRG
+
+#dele group resources
+az group delete --name vscodeRG
